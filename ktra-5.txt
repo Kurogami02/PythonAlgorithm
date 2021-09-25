@@ -1,0 +1,13 @@
+git init: Khởi tạo kho chứa git mới
+git add (tên tệp): Thêm thay đổi nhất định vào chỉ mục Index.
+git add . hoặc git add --all: Thêm toàn bộ files hoặc thay đổi vào Index.
+git commit -m "note": Ghi lại các thay đổi.
+git branch -M main: Chuyển nhánh thành main.
+git status: xem trọng thái repo.
+git remote add origin *link*: Kết nối kho chứa hiện tại vào máy chủ *link*
+git config --global user.name: nhập tên đăng nhập máy chủ
+git config --global user.email: Nhập email đăng nhập máy chủ
+git config --global user.password: Nhập password máy chủ
+git push origin master/main: Đẩy những thay đổi lên máy chủ.
+git checkout master: Chuyển nhánh về lại master.
+git pull: hợp nhất các thay đổi từ Remote Repo vào Local repo.
